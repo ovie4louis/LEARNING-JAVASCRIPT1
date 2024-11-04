@@ -1,4 +1,4 @@
-vaScript Programming Language
+JavaScript Programming Language
 JavaScript (JS) is a versatile, high-level, interpreted language primarily used to make web pages interactive. It’s a key technology in web development, alongside HTML and CSS, and it runs in the browser as well as on the server with environments like Node.js.
 
 Table of Contents
@@ -35,76 +35,76 @@ Copy code
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>JavaScript Example</title>
-      </head>
-      <body>
-        <script>
-            console.log('Hello, World!');
-              </script>
-              </body>
-              </html>
-              For server-side JavaScript, use Node.js:
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Example</title>
+</head>
+<body>
+  <script>
+    console.log('Hello, World!');
+  </script>
+</body>
+</html>
+For server-side JavaScript, use Node.js:
 
-              bash
-              Copy code
-              node myScript.js
-              JavaScript Basics
-              Variables and Data Types
-              JavaScript has three ways to declare variables:
+bash
+Copy code
+node myScript.js
+JavaScript Basics
+Variables and Data Types
+JavaScript has three ways to declare variables:
 
-              javascript
-              Copy code
-              let name = "Ovie";    // Block-scoped, reassignable
-              const age = 30;       // Block-scoped, constant
-              var city = "Lagos";   // Function-scoped, reassignable
-              Functions
-              Functions can be defined in several ways:
+javascript
+Copy code
+let name = "Ovie";    // Block-scoped, reassignable
+const age = 30;       // Block-scoped, constant
+var city = "Lagos";   // Function-scoped, reassignable
+Functions
+Functions can be defined in several ways:
 
-              javascript
-              Copy code
-              // Function Declaration
-              function greet() {
-                console.log("Hello!");
-                }
+javascript
+Copy code
+// Function Declaration
+function greet() {
+  console.log("Hello!");
+}
 
-                // Function Expression
-                const greet = function() {
-                  console.log("Hello!");
-                  };
+// Function Expression
+const greet = function() {
+  console.log("Hello!");
+};
 
-                  // Arrow Function (ES6+)
-                  const greet = () => console.log("Hello!");
-                  Control Flow
-                  JavaScript supports typical control flow constructs:
+// Arrow Function (ES6+)
+const greet = () => console.log("Hello!");
+Control Flow
+JavaScript supports typical control flow constructs:
 
-                  javascript
-                  Copy code
-                  if (age > 18) {
-                    console.log("Adult");
-                    } else {
-                      console.log("Minor");
-                      }
+javascript
+Copy code
+if (age > 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}
 
-                      for (let i = 0; i < 5; i++) {
-                        console.log(i);
-                        }
-                        Example Code
-                        Here’s a simple JavaScript example that demonstrates variable declaration, a function, and control flow:
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+Example Code
+Here’s a simple JavaScript example that demonstrates variable declaration, a function, and control flow:
 
-                        javascript
-                        Copy code
-                        const calculateSum = (a, b) => a + b;
+javascript
+Copy code
+const calculateSum = (a, b) => a + b;
 
-                        let number1 = 10;
-                        let number2 = 20;
+let number1 = 10;
+let number2 = 20;
 
-                        console.log("The sum is:", calculateSum(number1, number2));
+console.log("The sum is:", calculateSum(number1, number2));
 
-                        for (let i = 1; i <= 5; i++) {
-                          console.log("Loop iteration:", i);
-                          }
-                          Resources
-                          MDN JavaScript Documentation
-                          JavaScript.info
-                          Node.js - for server-side JavaScript
+for (let i = 1; i <= 5; i++) {
+  console.log("Loop iteration:", i);
+}
+Resources
+MDN JavaScript Documentation
+JavaScript.info
+Node.js - for server-side JavaScript
